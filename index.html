@@ -8,7 +8,7 @@
             name="description"
             content="Pedalen lagar och servar alla sorters cyklar i Stockholm. Boka service eller se våra priser"
         />
-        <!-- syns i fliken -->
+        <!-- ikon syns i fliken -->
         <link
             rel="shortcut icon"
             href="images/favicon.svg"
@@ -16,6 +16,25 @@
         />
     </head>
     <body>
+        <!-- Hoppa över länk, får första fokus när man tabbar, beökare kan hoppa över meny -->
+        <a href="#innehall" class="skip">Hoppa till innehållet</a>
+
+        <header class="header">
+            <div class="container header_inner">
+                <a href="index.html" class="logo">Pedalen</a>
+                <nav aria-label="Huvudmeny">
+                    <!--Skärmläsare säger meny med lista-- -->
+                    <!-- -->
+                    <ul class="nav">
+                        <li><a href="#tjanster">Tjänster</a></li>
+                        <li><a href="#priser">Priser</a></li>
+                        <li><a href="#oppetider">Öppettider</a></li>
+                        <li><a href="#konakt">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
         <h1>Pedalen cykelverkstad</h1>
     </body>
 </html>
